@@ -14,6 +14,7 @@
           <div class="content_title">{{ cont.title }}</div>
           <div class="content_sub">{{ cont.sub }}</div>
           <div class="content_note">{{ cont.note }}</div>
+          <br>
           <div class="content_desc" v-for="(li, l) in cont.cont" :key="'l'+l" v-show="cont.cont.length > 0"> &bullet;&ensp;{{ li.li }}</div>
           <div class="content_link">
             <button class="content_link_btn" v-show="cont.link != ''" @click="go(cont.link)">
@@ -249,7 +250,15 @@ methods: {
     // console.log(refName);
     // console.log(this.$refs[refName]);
     // console.log(this.$refs[refName][0].id);
-    document.getElementById(refName).scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'});
+    document.getElementById(refName).scrollIntoView({behavior: 'smooth', block: 'center', inline: 'start'});
+    for(var c=0; c < this.panels.length; c++) {
+      if(this.panels[c].id == refName) {
+        document.getElementById(this.panels[c].id).classList.add("extra_border");
+      }
+      else {
+        document.getElementById(this.panels[c].id).classList.remove("extra_border");
+      }
+    }
   },
 },
 mounted() {

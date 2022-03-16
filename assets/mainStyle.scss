@@ -287,6 +287,14 @@ $text2: #c2d7e9;
   padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
+  transition: 0.4s;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+.extra_border {
+  transition: 0.4s;
+  border-left: 7px solid $BG4;
+  border-right: 7px solid $BG4;
 }
 .panel_title {
   display: block;
