@@ -45,8 +45,16 @@
 
     </div>
     <div :style="'height:'+computedHeight+'px;'" class="content_layout" >
-      <Header/>
-      <Contents/>
+      <div id="main_cont" @scroll.passive="onScrolling">
+        <Header/>
+        <Contents/>
+      </div>
+    </div>
+
+    <div class="goTop">
+      <button class="goTopBtn" @click="goTop()">
+        <fa :icon="['fa', 'caret-up']"/>
+      </button>
     </div>
   </div>
 </template>
@@ -84,10 +92,22 @@ data() {
       { skill: "SEO" },
     ],
     final_height: "",
-    final_scroll_height: ""
+    final_scroll_height: "",
   }
 },
+methods: {
+  goTop() {
+    document.getElementById("main_cont").scrollIntoView({behavior: 'smooth', block: 'start'});
+  },
+},
+// destroyed () {
+//     window.removeEventListener('scroll', this.onScrolling());
+// },
 mounted() {
+  // TEST
+  // document.getElementById("main_cont").addEventListener('scroll', this.onScrolling());
+
+
   // GET MAIN LAYOUT'S HEIGHT
   var main_layout = parseInt(this.$refs.main_layout.offsetHeight);
   var main_layout_w = parseInt(this.$refs.main_layout.offsetWidth);
@@ -128,7 +148,6 @@ mounted() {
 
 },
 computed: {
-
 }
 }
 </script>

@@ -23,6 +23,8 @@
         </div>
       </div>
     </div>
+
+    
   </div>
 </template>
 
@@ -149,7 +151,7 @@ data() {
             link: "",
             note: "Self-taught",
             cont: [
-              {li: "Able to create colored and black in white portraits."},
+              {li: "Able to create colored and black n' white portraits."},
               {li: "Character designs and sketches."},
               {li: "Digital and Traditional ways of creating art pieces."}
             ]
@@ -247,11 +249,11 @@ methods: {
     // console.log(refName);
     // console.log(this.$refs[refName]);
     // console.log(this.$refs[refName][0].id);
-    document.getElementById(refName).scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start'  });
-  }
+    document.getElementById(refName).scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'});
+  },
 },
 mounted() {
-  
+
 },
 components: {
 
