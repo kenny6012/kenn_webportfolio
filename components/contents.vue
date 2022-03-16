@@ -29,14 +29,23 @@
     </div>
 
     <!-- SIDE BUTTONS -->
-    <div class="side_bottons">
+    <!-- <div class="side_bottons">
       <button 
       class="side_botton" 
       v-for="(navs, n) in panels" 
       :key="'n'+n" 
       v-b-tooltip.hover.left
-      variant="Info"
       :title="navs.title"
+      :id="'btn_'+navs.id"
+      @click="scrollView(navs.id)">
+        <fa :icon="['fa', navs.icon]"/>
+      </button>
+    </div> -->
+    <div class="side_bottons">
+      <button 
+      class="side_botton" 
+      v-for="(navs, n) in panels" 
+      :key="'n'+n" 
       :id="'btn_'+navs.id"
       @click="scrollView(navs.id)">
         <fa :icon="['fa', navs.icon]"/>
@@ -95,7 +104,7 @@ data() {
             note: "June 2019 - October 2019",
             cont: 
             [
-              {li: "This was my first job after graduating from the university and it gave me just the right amount of experience to start me career in graphics and web designing."},
+              {li: "This was my first job after graduating from the university and it gave me just the right amount of experience to start my career in graphics and web designing."},
             ]
           },
         ]
@@ -118,7 +127,7 @@ data() {
           },
           {
             title: "Raw Materials Receiving System", 
-            sub: "UI / UX Designer", 
+            sub: "Primary UX Designer", 
             note: "Nativescript-vue, Android Studio, SASS",
             link: "",
             cont: [
@@ -138,22 +147,12 @@ data() {
               {li: "Was able to train regarding SEO."},
             ]
           },
-          {
-            title: "Circular Economy Infographics", 
-            sub: "Graphics Designer", 
-            link: "",
-            note: "Adobe Photoshop, Adoba Illustrator",
-            cont: [
-              {li: "Discussed the company's circular economy with my boss / employer."},
-              {li: "Was able to convert the company's sustainable productions into an infopgraphics."},
-            ]
-          },
         ]
       },
       {
         id: "educBac",
         title: "Educational Background",
-        icon: "school",
+        icon: "book-open",
         contents: [
           {
             title: "Notre Dame of Dadiangas University (NDDU)", 

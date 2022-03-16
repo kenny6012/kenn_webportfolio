@@ -31,7 +31,10 @@ computed: {
   background-image: url("../assets/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  // background-position: center;
+  background-position-y: -350px;
+  background-position-x: 110px;
+  background-attachment: fixed;
 }
 .header_d {
     z-index: 2;

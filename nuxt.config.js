@@ -127,6 +127,7 @@ export default {
         "faInfoCircle",
         "faPrint",
         "faBookmark",
+        "faBookOpen",
         "faThumbsDown",
         "faThumbsUp",
         "faFolder",
