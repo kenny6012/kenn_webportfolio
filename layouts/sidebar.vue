@@ -45,16 +45,10 @@
 
     </div>
     <div :style="'height:'+computedHeight+'px;'" class="content_layout" >
-      <div id="main_cont">
         <Nuxt />
-      </div>
     </div>
 
-    <div class="goTop">
-      <button class="goTopBtn" @click="goTop()">
-        <fa :icon="['fa', 'caret-up']"/>
-      </button>
-    </div>
+    
   </div>
 </template>
 
@@ -88,9 +82,7 @@ data() {
   }
 },
 methods: {
-  goTop() {
-    document.getElementById("main_cont").scrollIntoView({behavior: 'smooth', block: 'start'});
-  },
+  
 },
 mounted() {
   // GET MAIN LAYOUT'S HEIGHT

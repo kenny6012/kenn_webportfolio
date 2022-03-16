@@ -67,6 +67,7 @@ $BG4: #add8fd;
 $BG5: #3c7bb3;
 $BG6: #ffb01c;
 $BG7: #c48818;
+$BG8: #6cbaff;
 
 $text1: white;
 $text2: #c2d7e9;
@@ -222,6 +223,7 @@ $text2: #c2d7e9;
   padding: 25px;
   padding-right: 25px;
   padding-left: 0px;
+  padding-top: 0px;
 }
 // HEADER
 .main_header {
@@ -251,6 +253,7 @@ $text2: #c2d7e9;
   color: $text1;
 }
 .main_container {
+  padding-top: 25px;
   overflow: hidden;
 }
 .navigations {
@@ -300,6 +303,16 @@ $text2: #c2d7e9;
   display: block;
   font-family: font_R;
   font-size: 15px;
+  transition: 0.4s;
+  border-left: 3px solid transparent;
+  padding-left: 15px;
+  margin-left: 10px;
+  // width: fit-content;
+}
+.extra_color {
+  border-left: 3px solid $BG6;
+  font-weight: bold;
+  // background-image: linear-gradient(48deg, #ffffff5f, transparent);
 }
 .panel_title svg {
   height: 15px;
@@ -324,6 +337,7 @@ $text2: #c2d7e9;
   font-size: 14px;
   display: block;
   margin-top: 7px;
+  transition: 0.4s;
 }
 .content_sub {
   margin-top: 7px;
@@ -400,4 +414,40 @@ $text2: #c2d7e9;
   height: fit-content;
   border: 1px solid red;
 }
-
+.side_bottons {
+  position: fixed;
+  position: fixed;
+  right: 30px;
+  bottom: 80px;
+  z-index: 10001;
+  width: fit-content;
+  height: fit-content;
+  // border: 1px solid red;
+}
+.side_botton {
+  margin-bottom: 15px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  white-space: nowrap;
+  font-size: 13px;
+  transition: 0.3s;
+  color: $BG1;
+  background: $BG3;
+  &:hover {
+    background: $BG8;
+    color: $text1;
+    transition: 0.3s;
+  }
+}
+.extra_sideBtn {
+  background: $BG8;
+  color: $text1;
+  transition: 0.3s;
+}
+.side_botton svg {
+  height: 13px;
+}

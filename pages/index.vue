@@ -1,7 +1,5 @@
 <template>
-  <div>
-    Char
-  </div>
+  <div> </div>
 </template>
 
 <script>
