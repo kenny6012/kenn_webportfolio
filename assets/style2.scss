@@ -1,0 +1,72 @@
+@font-face {
+    font-family: font_R;
+    src: url(red-hat-display.ttf);
+  }
+  
+  @font-face {
+    font-family: font_M;
+    src: url(red-hat-display-medium.ttf);
+  }
+  
+  @font-face {
+    font-family: font_B;
+    src: url(red-hat-display-bold.ttf);
+  }
+  
+  @font-face {
+    font-family: font_BL;
+    src: url(red-hat-display-black.ttf);
+  }
+  
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    // color: #303030;
+    // color: #555555;
+  
+    // user-select: none;
+    // /* supported by Chrome and Opera */
+    // -webkit-user-select: none;
+    // /* Safari */
+    // -khtml-user-select: none;
+    // /* Konqueror HTML */
+    // -moz-user-select: none;
+    // /* Firefox */
+    // -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    font-family: font_R;
+    outline-width: 0;
+    outline-style: none;
+    border: 0px;
+  }
+  
+  html,
+  body {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: #161b1f;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0px;
+  }
+  
+  $BG1: #161b1f;
+  $BG2: #232a30;
+  $BG3: #c5e4ff8a;
+  $BG4: #add8fd;
+  $BG5: #3c7bb3;
+  $BG6: #ffb01c;
+  $BG7: #c48818;
+  
+  $text1: white;
+  $text2: #c2d7e9;
