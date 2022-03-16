@@ -93,7 +93,7 @@ data() {
             note: "January 2020 - Preset",
             cont: [
               {li: "My 2nd role, along with the graphics designing."},
-              {li: "This role made my experience even wider in front-end designing field."},
+              {li: "This role made my experience even wider in the designing field."},
               {li: "Typically working on UI designs and API integrations."},
             ]
           },
@@ -131,8 +131,8 @@ data() {
             note: "Nativescript-vue, Android Studio, SASS",
             link: "",
             cont: [
-              {li: "Assigned as the primary UX Designer for the mobile app version."},
-              {li: "Used nativescript-vue and android studio emmulator to develop the mobile app."},
+              {li: "Created teh first mobile app version for the company's existing web application."},
+              {li: "Used nativescript-vue and android studio emmulator."},
               {li: "Used Axios for API integrations."},
             ]
           },
