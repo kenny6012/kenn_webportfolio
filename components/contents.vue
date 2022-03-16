@@ -161,7 +161,7 @@ data() {
             note: "SY: 2015 - 2019",
             cont: [
               {li: "Montagne Scholar"},
-              {li: "Junior Programers Group: Documentation Head."},
+              {li: "Junior Programers Group (Documentation Head)."},
               {li: "Course Representative."},
             ]
           }
