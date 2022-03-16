@@ -145,6 +145,7 @@ export default {
         "faGlobeAsia",
         "faSchool",
         "faStar",
+        "faProjectDiagram",
         
       ],
       brands: [

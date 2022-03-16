@@ -1,9 +1,9 @@
 <template>
   <div class="main_header">
       <div class="header_d">
-          <span class="cover_title">A Team Player</span>
+          <span class="cover_title">Driven &amp; Passionate</span>
           <br>
-          <span class="cover_sub">who has worked with multi-cultural and diverse team and has holistic knowledge of software development and design.</span>
+          <span class="cover_sub">always looking for ways to create and design things, for better experience.</span>
 
       </div>
   </div>

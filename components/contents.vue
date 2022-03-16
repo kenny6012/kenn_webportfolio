@@ -14,7 +14,12 @@
           <div class="content_title">{{ cont.title }}</div>
           <div class="content_sub">{{ cont.sub }}</div>
           <div class="content_note">{{ cont.note }}</div>
-          <div class="content_desc" v-show="cont.cont != ''">{{ cont.cont }}</div>
+          <div class="content_desc" v-for="(li, l) in cont.cont" :key="'l'+l" v-show="cont.cont.length > 0"> &bullet;&ensp;{{ li.li }}</div>
+          <div class="content_link">
+            <button class="content_link_btn" v-show="cont.link != ''" @click="go(cont.link)">
+              Click here to view &ensp; <fa :icon="['fa', 'arrow-alt-circle-right']"/>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -32,47 +37,86 @@ data() {
         icon: "users",
         contents: [
           {
+            title: "Graphics Designer", 
+            sub: "Biotech Farms Inc.", 
+            link: "",
+            note: "November 2019 - Preset",
+            cont: [
+              {li: "This is my first role in the company."},
+              {li: "Typically working on job posting layouts and infographics."},
+              {li: "Usually using Adobe Photoshop and Adobe Illustrator as my tools."},
+            ]
+          },
+          {
             title: "User Experience Designer (UX)", 
             sub: "Biotech Farms Inc.", 
-            note: "January 2019 - Preset",
-            cont: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-          }
+            link: "",
+            note: "January 2020 - Preset",
+            cont: [
+              {li: "My 2nd role, along with the graphics designing."},
+              {li: "This role made my experience even wider in front-end designing field."},
+              {li: "Typically working on UI designs and API integrations."},
+            ]
+          },
+          {
+            title: "Web Designer", 
+            sub: "Starbright School and Office Depot Inc.", 
+            link: "",
+            note: "June 2019 - October 2019",
+            cont: 
+            [
+              {li: "This was my first job after graduating from the university and it gave me just the right amount of experience to start me career in graphics and web designing."},
+            ]
+          },
         ]
       },
       {
         id: "projEnv",
         title: "Projects Involved",
-        icon: "folder",
+        icon: "project-diagram",
         contents: [
           {
             title: "Recruitment Tracking System", 
             sub: "Primary UX Designer", 
             note: "Vue, Nuxt, Bootstrap-vue, SASS",
-            cont: ""
+            link: "",
+            cont: [
+              {li: "Proposed a refactoring of their old web system and is now deployed for production."},
+              {li: "Used Axios for API integrations"},
+              {li: "Desktop / Mobile version"},
+            ]
           },
           {
-            title: "Check Management Application", 
-            sub: "Primary UX Designer", 
-            note: "Vue, Nuxt, Bootstrap-vue, SASS",
-            cont: ""
+            title: "Raw Materials Receiving System", 
+            sub: "UI / UX Designer", 
+            note: "Nativescript-vue, Android Studio, SASS",
+            link: "",
+            cont: [
+              {li: "Assigned as the primary UX Designer for the mobile app version."},
+              {li: "Used nativescript-vue and android studio emmulator to develop the mobile app."},
+              {li: "Used Axios for API integrations"},
+            ]
           },
           {
-            title: "Master Data Management System", 
-            sub: "Primary UX Designer", 
-            note: "Vue, Nuxt, Bootstrap-vue, SASS",
-            cont: ""
+            title: "Company Website", 
+            sub: "UI / UX Designer", 
+            link: "",
+            note: "Wordpress, Yoast SEO",
+            cont: [
+              {li: "Used wordpress for this project."},
+              {li: "Created my own wordpress template from scratch."},
+              {li: "Was able to train regarding SEO."},
+            ]
           },
           {
-            title: "Assets Management System", 
-            sub: "Secondary UX Designer", 
-            note: "Vue, Nuxt, Bootstrap-vue, SASS",
-            cont: ""
-          },
-          {
-            title: "REvive Booking System", 
-            sub: "Secondary UX Designer", 
-            note: "Vue, Nuxt, Bootstrap-vue, SASS",
-            cont: ""
+            title: "Circular Economy Infographics", 
+            sub: "Graphics Designer", 
+            link: "",
+            note: "Adobe Photoshop, Adoba Illustrator",
+            cont: [
+              {li: "Discussed the company's circular economy with my boss / employer."},
+              {li: "Was able to convert the company's sustainable productions into an infopgraphics"},
+            ]
           },
         ]
       },
@@ -82,41 +126,110 @@ data() {
         icon: "school",
         contents: [
           {
-            title: "Mindanao State University (MSU)", 
-            sub: "BS Information Technology", 
+            title: "Notre Dame of Dadiangas University (NDDU)", 
+            sub: "BS Computer Science", 
+            link: "",
             note: "SY: 2015 - 2019",
-            cont: ""
+            cont: [
+              {li: "Montagne Scholar"},
+              {li: "Junior Programers Group: Documentation Head"},
+              {li: "Course Representative"},
+            ]
           }
         ]
       },
       {
-        id: "achMil",
-        title: "Achievements & Milestones",
+        id: "others",
+        title: "Other Relevant Experiences",
         icon: "star",
         contents: [
           {
+            title: "Visual Artistry", 
+            sub: "Year 2017 - Present", 
+            link: "",
+            note: "Self-taught",
+            cont: [
+              {li: "Able to create colored and black in white portraits."},
+              {li: "Character designs and sketches."},
+              {li: "Digital and Traditional ways of creating art pieces."}
+            ]
+          },
+          {
             title: "SAP Be Visual! Sketching Basics for IT Business, Passer", 
             sub: "December 2020", 
+            link: "",
             note: "Certification",
-            cont: ""
+            cont: []
+          },
+        ]
+      },
+      {
+        id: "portf",
+        title: "Portfolio",
+        icon: "folder",
+        contents: [
+          {
+            title: "Graphic Designs", 
+            sub: "",
+            link: "https://github.com",
+            note: "Graphic designs from previous works",
+            cont: []
           },
           {
-            title: "Civil Service Profesional, Passer", 
-            sub: "March 2018", 
-            note: "Certification",
-            cont: ""
+            title: "Digital Arts", 
+            sub: "",
+            link: "https://github.com",
+            note: "Using Huion pentab and Adobe Photoshop",
+            cont: []
           },
           {
-            title: "Cargill Scholar", 
-            sub: "Year: 2006 - 2010", 
-            note: "Scholarship",
-            cont: ""
+            title: "Portraits", 
+            sub: "",
+            link: "https://github.com",
+            note: "Colored and Graphite pencils, and Vellum paper",
+            cont: []
           },
           {
-            title: "Graduated with Honors", 
-            sub: "Year: 2006", 
-            note: "DWCES",
-            cont: ""
+            title: "Black", 
+            sub: "",
+            link: "https://github.com",
+            note: "Web Design",
+            cont: []
+          },
+          {
+            title: "Black 2.0", 
+            sub: "",
+            link: "https://github.com",
+            note: "Web Design",
+            cont: []
+          },
+          {
+            title: "Black 3.0", 
+            sub: "",
+            link: "https://github.com",
+            note: "Web Design",
+            cont: []
+          },
+          {
+            title: "Magazine 2.0", 
+            sub: "",
+            link: "https://github.com",
+            note: "Web Design",
+            cont: []
+          },
+          {
+            title: "Magazine 3.0", 
+            sub: "",
+            link: "https://github.com",
+            note: "Web Design",
+            cont: []
+          },
+          {
+            title: "Landing Page 3.0", 
+            sub: "",
+            link: "https://github.com",
+            note: "Web Design",
+            cont: []
           },
         ]
       },
@@ -125,6 +238,10 @@ data() {
   }
 },
 methods: {
+  go(link) {
+    // location.href='"'+link+'"';
+    window.open(`${link}`);
+  },
   scrollView(refName) {
     // this.$refs[refName].scrollIntoView();
     // console.log(refName);
