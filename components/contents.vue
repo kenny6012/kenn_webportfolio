@@ -85,8 +85,8 @@ data() {
             link: "",
             cont: [
               {li: "Proposed a refactoring of their old web system and is now deployed for production."},
-              {li: "Used Axios for API integrations"},
-              {li: "Desktop / Mobile version"},
+              {li: "Used Axios for API integration."},
+              {li: "Desktop / Mobile version."},
             ]
           },
           {
@@ -97,7 +97,7 @@ data() {
             cont: [
               {li: "Assigned as the primary UX Designer for the mobile app version."},
               {li: "Used nativescript-vue and android studio emmulator to develop the mobile app."},
-              {li: "Used Axios for API integrations"},
+              {li: "Used Axios for API integrations."},
             ]
           },
           {
@@ -118,7 +118,7 @@ data() {
             note: "Adobe Photoshop, Adoba Illustrator",
             cont: [
               {li: "Discussed the company's circular economy with my boss / employer."},
-              {li: "Was able to convert the company's sustainable productions into an infopgraphics"},
+              {li: "Was able to convert the company's sustainable productions into an infopgraphics."},
             ]
           },
         ]
@@ -135,8 +135,8 @@ data() {
             note: "SY: 2015 - 2019",
             cont: [
               {li: "Montagne Scholar"},
-              {li: "Junior Programers Group: Documentation Head"},
-              {li: "Course Representative"},
+              {li: "Junior Programers Group: Documentation Head."},
+              {li: "Course Representative."},
             ]
           }
         ]
@@ -148,13 +148,23 @@ data() {
         contents: [
           {
             title: "Visual Artistry", 
-            sub: "Year 2017 - Present", 
+            sub: "Present", 
             link: "",
             note: "Self-taught",
             cont: [
               {li: "Able to create colored and black n' white portraits."},
               {li: "Character designs and sketches."},
               {li: "Digital and Traditional ways of creating art pieces."}
+            ]
+          },
+          {
+            title: "Web Résumé and Portfolio", 
+            sub: "Year 2022", 
+            link: "",
+            note: "Vue, Nuxt, SASS, Github, Netlify",
+            cont: [
+              {li: "I made this very webiste you're looking right now."},
+              {li: "I guess this could count as a part of my portfolio."},
             ]
           },
           {
