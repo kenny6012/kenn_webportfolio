@@ -83,7 +83,8 @@ data() {
       { skill: "Wordpress" },
       { skill: "SEO" },
     ],
-    final_height: ""
+    final_height: "",
+    final_scroll_height: ""
   }
 },
 mounted() {
@@ -95,6 +96,13 @@ mounted() {
   const side_container_height = this.$refs.side_cont.offsetHeight;
   var needed_height;
 
+  // FOR CONTENT SCROLL
+  // this.final_scroll_height = side_container_height;
+  var sh = side_container_height;
+  this.computedHeight = parseInt(sh) + 50; // idk why I had to put 50
+  // console.log(sh);
+  // console.log(screen.height);
+
   // FOR WIDTH
   if(main_layout_w > 1300) {
     this.final_width = 1344;
@@ -102,8 +110,8 @@ mounted() {
   else {
     this.final_width = main_layout_w;
   }
-  console.log(this.final_width);
-  console.log(main_layout_w);
+  // console.log(this.final_width);
+  // console.log(main_layout_w);
 
   // console.log(main_layout);
   if(main_layout < 733) {
@@ -118,10 +126,6 @@ mounted() {
   }
   this.final_height = parseInt(needed_height);
 
-},
-created() {
-  var sh = screen.height;
-  this.computedHeight = parseInt(sh) - 111; //111 is the chrome tabs + address bar heights
 },
 computed: {
 

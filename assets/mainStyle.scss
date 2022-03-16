@@ -215,7 +215,7 @@ $text2: #c2d7e9;
   overflow-x: hidden;
 }
 .content_layout {
-  // border: 1px solid black;
+  // border: 1px solid red;
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -235,13 +235,13 @@ $text2: #c2d7e9;
   padding: 50px 60px;
   width: 100%;
   height: fit-content;
-  padding-top: 80px;
   text-shadow: 2px 2px 30px #000000, 2px 2px 30px #000000;
 }
 .cover_title {
-  font-size: 50px;
+  font-size: 40px;
   font-family: font_B;
   color: $text1;
+  line-height: 0.5;
   display: block;
 }
 .cover_sub {
