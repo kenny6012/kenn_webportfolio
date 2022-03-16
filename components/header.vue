@@ -28,9 +28,10 @@ computed: {
 
 <style lang="scss">
 .main_header{
-  background-image: url("../assets/sample_cover.jpg");
+  background-image: url("../assets/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .header_d {
     z-index: 2;
