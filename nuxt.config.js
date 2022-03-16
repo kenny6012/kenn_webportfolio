@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'webportfolio',
+    title: 'Kenn - Web Resume',
     htmlAttrs: {
       lang: 'en'
     },

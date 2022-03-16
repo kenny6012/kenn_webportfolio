@@ -193,47 +193,12 @@ data() {
             cont: []
           },
           {
-            title: "Black", 
+            title: "Website Designs", 
             sub: "",
             link: "https://github.com",
             note: "Web Design",
             cont: []
-          },
-          {
-            title: "Black 2.0", 
-            sub: "",
-            link: "https://github.com",
-            note: "Web Design",
-            cont: []
-          },
-          {
-            title: "Black 3.0", 
-            sub: "",
-            link: "https://github.com",
-            note: "Web Design",
-            cont: []
-          },
-          {
-            title: "Magazine 2.0", 
-            sub: "",
-            link: "https://github.com",
-            note: "Web Design",
-            cont: []
-          },
-          {
-            title: "Magazine 3.0", 
-            sub: "",
-            link: "https://github.com",
-            note: "Web Design",
-            cont: []
-          },
-          {
-            title: "Landing Page 3.0", 
-            sub: "",
-            link: "https://github.com",
-            note: "Web Design",
-            cont: []
-          },
+          }
         ]
       },
       
