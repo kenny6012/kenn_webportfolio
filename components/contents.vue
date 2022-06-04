@@ -224,7 +224,7 @@ data() {
           {
             title: "Website Designs", 
             sub: "",
-            link: "https://github.com/kenny6012",
+            link: "https://websitesamples.netlify.app/",
             note: "Web Design",
             cont: []
           }
