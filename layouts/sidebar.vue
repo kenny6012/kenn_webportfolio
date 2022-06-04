@@ -66,9 +66,10 @@ data() {
     address: "General Santos City 9500, Mindanao, Philippines",
     skills: [
       { skill: "Adobe Photoshop, Illustrator", lvl: 90 },
+      { skill: "Figma ", lvl: 60 },
       { skill: "Vue, Vuex", lvl: 80 },
-      { skill: "Nativescript-vue ", lvl: 60 },
       { skill: "Bootstrap, Bootstrap Vue", lvl: 85 },
+      { skill: "Nativescript-vue ", lvl: 60 },
     ],
     knowledge: [
       { skill: "Github / Bitbucket" },

@@ -210,28 +210,21 @@ data() {
           {
             title: "Graphic Designs", 
             sub: "",
-            link: "https://github.com",
+            link: "https://drive.google.com/drive/folders/1jFDv-0ltW9uy9nVQOwo4icLCWnwmbnCw?usp=sharing",
             note: "Graphic designs from previous works",
             cont: []
           },
           {
             title: "Digital Arts", 
             sub: "",
-            link: "https://github.com",
+            link: "https://drive.google.com/drive/folders/1qJaPsZ4SwmvmyHTGCXG1PpwjramjqU5q?usp=sharing",
             note: "Using Huion pentab and Adobe Photoshop",
-            cont: []
-          },
-          {
-            title: "Portraits", 
-            sub: "",
-            link: "https://github.com",
-            note: "Colored and Graphite pencils, and Vellum paper",
             cont: []
           },
           {
             title: "Website Designs", 
             sub: "",
-            link: "https://github.com",
+            link: "https://github.com/kenny6012",
             note: "Web Design",
             cont: []
           }
