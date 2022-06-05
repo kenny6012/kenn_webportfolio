@@ -34,7 +34,7 @@
             </div>
             <!-- KNOWLEDGE -->
             <div class="side_panel">
-              <div class="display_B text_title"> Knowledgable in: </div>
+              <div class="display_B text_title"> Knowledgeable in: </div>
               <div class="display_B text_sub" v-for="(know, k) in knowledge" :key="'k'+k"> <fa :icon="['fa', 'check-circle']"/> &ensp; {{ know.skill }} </div>
             </div>
 
