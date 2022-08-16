@@ -71,6 +71,34 @@ data() {
   return {
     panels: [
       {
+        id: "portf",
+        title: "Portfolio",
+        icon: "folder",
+        contents: [
+          {
+            title: "Graphic Designs", 
+            sub: "",
+            link: "https://drive.google.com/drive/folders/1jFDv-0ltW9uy9nVQOwo4icLCWnwmbnCw?usp=sharing",
+            note: "Graphic designs from previous works",
+            cont: []
+          },
+          {
+            title: "Digital Arts", 
+            sub: "",
+            link: "https://drive.google.com/drive/folders/1qJaPsZ4SwmvmyHTGCXG1PpwjramjqU5q?usp=sharing",
+            note: "Using Huion pentab and Adobe Photoshop",
+            cont: []
+          },
+          {
+            title: "Website Designs", 
+            sub: "",
+            link: "https://websitesamples.netlify.app/",
+            note: "Web Design",
+            cont: []
+          }
+        ]
+      },
+      {
         id: "workExp",
         title: "Work Experiences",
         icon: "users",
@@ -131,7 +159,7 @@ data() {
             note: "Nativescript-vue, Android Studio, SASS",
             link: "",
             cont: [
-              {li: "Created teh first mobile app version for the company's existing web application."},
+              {li: "Created the first mobile app version for the company's existing web application."},
               {li: "Used nativescript-vue and android studio emmulator."},
               {li: "Used Axios for API integrations."},
             ]
@@ -200,34 +228,6 @@ data() {
             note: "Certification",
             cont: []
           },
-        ]
-      },
-      {
-        id: "portf",
-        title: "Portfolio",
-        icon: "folder",
-        contents: [
-          {
-            title: "Graphic Designs", 
-            sub: "",
-            link: "https://drive.google.com/drive/folders/1jFDv-0ltW9uy9nVQOwo4icLCWnwmbnCw?usp=sharing",
-            note: "Graphic designs from previous works",
-            cont: []
-          },
-          {
-            title: "Digital Arts", 
-            sub: "",
-            link: "https://drive.google.com/drive/folders/1qJaPsZ4SwmvmyHTGCXG1PpwjramjqU5q?usp=sharing",
-            note: "Using Huion pentab and Adobe Photoshop",
-            cont: []
-          },
-          {
-            title: "Website Designs", 
-            sub: "",
-            link: "https://websitesamples.netlify.app/",
-            note: "Web Design",
-            cont: []
-          }
         ]
       },
       
