@@ -60,7 +60,7 @@ data() {
     final_width: "",
     computedHeight: "",
     name: "Kenn Brian Nillama",
-    title: "UX | Graphic Designer | Visual Artist",
+    title: "UI/UX | Graphic Designer | Visual Artist",
     email: "kennbnillama@gmail.com",
     mobile: "(+63) 977-781-3785",
     address: "General Santos City 9500, Mindanao, Philippines",
