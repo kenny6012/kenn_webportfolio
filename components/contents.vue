@@ -95,6 +95,13 @@ data() {
             link: "https://websitesamples.netlify.app/",
             note: "Web Design",
             cont: []
+          },
+          {
+            title: "Github Projects", 
+            sub: "",
+            link: "https://github.com/kenny6012",
+            note: "Sample Projects and previous works",
+            cont: []
           }
         ]
       },
