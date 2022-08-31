@@ -114,7 +114,7 @@ data() {
             title: "Graphics Designer", 
             sub: "Biotech Farms Inc.", 
             link: "",
-            note: "November 2019 - Preset",
+            note: "November 2019 - Present",
             cont: [
               {li: "This is my first role in the company."},
               {li: "Typically working on job posting layouts and infographics."},
@@ -125,7 +125,7 @@ data() {
             title: "User Experience Designer (UX)", 
             sub: "Biotech Farms Inc.", 
             link: "",
-            note: "January 2020 - Preset",
+            note: "January 2020 - Present",
             cont: [
               {li: "My 2nd role, along with the graphics designing."},
               {li: "This role made my experience even wider in the designing field."},
