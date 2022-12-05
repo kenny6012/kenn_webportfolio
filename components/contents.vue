@@ -125,7 +125,7 @@ data() {
             title: "User Experience Designer (UX)", 
             sub: "Biotech Farms Inc.", 
             link: "",
-            note: "January 2020 - Present",
+            note: "January 2020 - October 2022",
             cont: [
               {li: "My 2nd role, along with the graphics designing."},
               {li: "This role made my experience even wider in the designing field."},
