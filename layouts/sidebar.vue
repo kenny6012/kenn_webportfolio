@@ -65,10 +65,10 @@ data() {
     mobile: "(+63) 977-781-3785",
     address: "General Santos City 9500, Mindanao, Philippines",
     skills: [
-      { skill: "Adobe Photoshop, Illustrator", lvl: 90 },
-      { skill: "Figma ", lvl: 60 },
-      { skill: "Vue, Vuex", lvl: 80 },
-      { skill: "Bootstrap, Bootstrap Vue", lvl: 85 },
+      { skill: "Adobe Photoshop, Illustrator, Canva", lvl: 80 },
+      { skill: "Figma, Adobe XD", lvl: 80 },
+      { skill: "Vue, Vuex", lvl: 60 },
+      { skill: "Bootstrap, Bootstrap Vue", lvl: 80 },
       { skill: "Nativescript-vue ", lvl: 60 },
     ],
     knowledge: [

@@ -114,7 +114,7 @@ data() {
             title: "Graphics Designer", 
             sub: "Biotech Farms Inc.", 
             link: "",
-            note: "November 2019 - Present",
+            note: "November 2019 - October 2022",
             cont: [
               {li: "This is my first role in the company."},
               {li: "Typically working on job posting layouts and infographics."},
