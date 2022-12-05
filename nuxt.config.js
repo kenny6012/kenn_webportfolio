@@ -148,6 +148,8 @@ export default {
         "faSchool",
         "faStar",
         "faProjectDiagram",
+        "faArrowAltCircleDown",
+        "faHome",
         
       ],
       brands: [

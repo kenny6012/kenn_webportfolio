@@ -5,6 +5,7 @@
 <script>
 export default {
   created() {
+    // this.$router.push({ path: "../profile" });
     this.$router.push({ path: "../resume" });
   }
 }
