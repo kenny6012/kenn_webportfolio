@@ -65,15 +65,15 @@ data() {
     mobile: "(+63) 977-781-3785",
     address: "General Santos City 9500, Mindanao, Philippines",
     skills: [
-      { skill: "Adobe Photoshop, Illustrator, Canva", lvl: 80 },
       { skill: "Figma, Adobe XD", lvl: 80 },
+      { skill: "Adobe Photoshop, Illustrator, Canva", lvl: 80 },
       { skill: "Vue, Vuex", lvl: 60 },
       { skill: "Bootstrap, Bootstrap Vue", lvl: 80 },
       { skill: "Nativescript-vue ", lvl: 60 },
     ],
     knowledge: [
       { skill: "Github / Bitbucket" },
-      { skill: "JIRA" },
+      { skill: "JIRA / Trello / Confluence" },
       { skill: "Axios" },
       { skill: "Wordpress" },
       { skill: "SEO" },
@@ -125,8 +125,10 @@ computed: {
 
 <style lang="scss">
 .side_picture{
-  background-image: url("../assets/pic2.png");
+  background-image: url("../assets/kenn_brian_dp.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 120%;
+  background-position: center;
+  image-rendering: smooth;
 }
 </style>

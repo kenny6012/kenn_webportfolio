@@ -3,7 +3,7 @@
       <div class="header_d">
           <span class="cover_title">Driven &amp; Passionate</span>
           <br>
-          <span class="cover_sub">Always looking for ways to create and design things, for better experience.</span>
+          <span class="cover_sub">Always looking for ways to improve experience in work and in life.</span>
 
       </div>
   </div>

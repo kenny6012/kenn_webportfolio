@@ -18,7 +18,13 @@
           <div class="content_sub">{{ cont.sub }}</div>
           <div class="content_note">{{ cont.note }}</div>
           <br>
-          <div class="content_desc" v-for="(li, l) in cont.cont" :key="'l'+l" v-show="cont.cont.length > 0"> &bullet;&ensp;{{ li.li }}</div>
+          <div class="content_desc" 
+            v-for="(li, l) in cont.cont" 
+            :key="'l'+l" 
+            v-show="cont.cont.length > 0"
+          > 
+            &bullet;&ensp;{{ li.li }}
+          </div>
           <div class="content_link">
             <button class="content_link_btn" v-show="cont.link != ''" @click="go(cont.link)">
               Click here to view &ensp; <fa :icon="['fa', 'arrow-alt-circle-right']"/>
