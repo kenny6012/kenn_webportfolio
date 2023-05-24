@@ -86,15 +86,6 @@ methods: {
   
 },
 mounted() {
-
-  window._mfq = window._mfq || [];
-  (function() {
-    var mf = document.createElement("script");
-    mf.type = "text/javascript"; mf.defer = true;
-    mf.src = "//cdn.mouseflow.com/projects/67ceb5bc-3196-4a50-931f-57e22c0c3151.js";
-    document.getElementsByTagName("head")[0].appendChild(mf);
-  })();
-  
   // GET MAIN LAYOUT'S HEIGHT
   var main_layout = parseInt(this.$refs.main_layout.offsetHeight);
   var main_layout_w = parseInt(this.$refs.main_layout.offsetWidth);
