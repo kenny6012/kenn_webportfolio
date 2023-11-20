@@ -12,7 +12,7 @@
           </div>
         </div>
         <!-- SCROLLABLE SIDE -->
-        <div class="side_scroll" :style="'height:'+final_height+'px;'">
+        <div class="side_scroll">
           <!-- SIDE CONTENTS -->
           <div class="side_content">
             <!-- CONTACTS -->
@@ -22,21 +22,47 @@
               <div class="display_B text_sub"> <fa :icon="['fa', 'phone-square']"/> &ensp; {{ mobile }} </div>
               <div class="display_B text_sub"> <fa :icon="['fa', 'globe-asia']"/> &ensp; {{ address }} </div>
             </div>
-            <!-- SKILLS -->
+            <!-- UI/UX SKILLS -->
             <div class="side_panel">
-              <div class="display_B text_title"> Skills: </div>
-              <div class="skill_set" v-for="(skills, s) in skills" :key="'s'+s">
+              <div class="display_B text_title">UI/UX Design Skills: </div>
+
+              <div class="skill_pill" v-for="(skill1, s) in skills1" :key="'s1'+s">
+                {{ skill1.skill }} 
+              </div>
+
+              <!-- <div class="skill_set" v-for="(skills, s) in skills" :key="'s'+s">
                 <div class="display_B text_title2">{{ skills.skill }}</div>
                 <div class="display_B prog_bar">
                   <div class="prog" :style="'width:'+skills.lvl+'%;'"></div>
                 </div>
-              </div>
+              </div> -->
+
             </div>
-            <!-- KNOWLEDGE -->
+            <!-- Front-End SKILLS -->
             <div class="side_panel">
+              <div class="display_B text_title">Front-End Dev Skills: </div>
+
+              <div class="skill_pill" v-for="(skill2, s) in skills2" :key="'s2'+s">
+                {{ skill2.skill }} 
+              </div>
+
+            </div>
+
+            <!-- Gaphic Design SKILLS -->
+            <div class="side_panel">
+              <div class="display_B text_title">Gaphic Design Skills: </div>
+
+              <div class="skill_pill" v-for="(skill3, s) in skills3" :key="'s3'+s">
+                {{ skill3.skill }} 
+              </div>
+
+            </div>
+
+            <!-- KNOWLEDGE -->
+            <!-- <div class="side_panel">
               <div class="display_B text_title"> Knowledgeable in: </div>
               <div class="display_B text_sub" v-for="(know, k) in knowledge" :key="'k'+k"> <fa :icon="['fa', 'check-circle']"/> &ensp; {{ know.skill }} </div>
-            </div>
+            </div> -->
 
           </div>
         </div>
@@ -64,20 +90,55 @@ data() {
     email: "kennbnillama@gmail.com",
     mobile: "(+63) 977-781-3785",
     address: "General Santos City 9500, Mindanao, Philippines",
-    skills: [
-      { skill: "Figma, Adobe XD", lvl: 80 },
-      { skill: "Adobe Photoshop, Illustrator, Canva", lvl: 80 },
-      { skill: "Vue, Vuex", lvl: 60 },
-      { skill: "Bootstrap, Bootstrap Vue", lvl: 80 },
-      { skill: "Nativescript-vue ", lvl: 60 },
+    skills1: [
+      // { skill: "Figma, Adobe XD", lvl: 80 },
+      // { skill: "Adobe Photoshop, Illustrator, Canva", lvl: 80 },
+      // { skill: "Vue, Vuex", lvl: 60 },
+      // { skill: "Bootstrap, Bootstrap Vue", lvl: 80 },
+      // { skill: "Nativescript-vue ", lvl: 60 },
+
+      { skill: "Figma"},
+      { skill: "Adobe XD"},
+      { skill: "Use Flows"},
+      { skill: "Prototyping"},
+      { skill: "Story Boarding"},
+      { skill: "UX Reseach"},
+      { skill: "Wireframing"},
+      { skill: "Visual Design"},
+      { skill: "Mobile-First Design"},
+      { skill: "User-Centered Design"},
     ],
-    knowledge: [
-      { skill: "Github / Bitbucket" },
-      { skill: "JIRA / Trello / Confluence" },
-      { skill: "Axios" },
-      { skill: "Wordpress" },
-      { skill: "SEO" },
+    skills2: [
+      { skill: "HTMl"},
+      { skill: "Javascript"},
+      { skill: "CSS"},
+      { skill: "Sass"},
+      { skill: "Vuex"},
+      { skill: "Nuxt JS"},
+      { skill: "Axios"},
+      { skill: "Bootstrap"},
+      { skill: "Socket.io"},
+      { skill: "Nativescript-vue "},
+      { skill: "Material Design"},
     ],
+    skills3: [
+      { skill: "Adobe Photoshop"},
+      { skill: "Adobe Illustrator"},
+      { skill: "Canva"},
+      { skill: "Information Hierarchy"},
+      { skill: "Product Mockups"},
+      { skill: "Color Thoery"},
+      { skill: "Typography"},
+      { skill: "Branding"},
+      { skill: "Marketing Ads"},
+    ],
+    // knowledge: [
+    //   { skill: "Github / Bitbucket" },
+    //   { skill: "JIRA / Trello / Confluence" },
+    //   { skill: "Axios" },
+    //   { skill: "Wordpress" },
+    //   { skill: "SEO" },
+    // ],
     final_height: "",
     final_scroll_height: "",
   }
