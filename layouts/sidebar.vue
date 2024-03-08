@@ -167,7 +167,8 @@ mounted() {
     this.final_width = main_layout_w;
   }
   if(main_layout < 733) {
-    alert("Redirecting to mobile version");
+    // alert("Redirecting to mobile version", main_layout);
+    console.log("Redirecting to mobile version", main_layout);
     needed_height = parseFloat(side_container_height) * 0.65; // 65 percent
   }
   else if(main_layout > 800) {
