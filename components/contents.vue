@@ -135,7 +135,7 @@ data() {
             links: [
               {
                 linkname: "JHunter: Job Hunt App",
-                url: "https://www.figma.com/file/jyCWPKiLTIoYM57cuq0vM9/Web-Portfolio?type=design&node-id=204-7&mode=design"
+                url: "https://www.figma.com/proto/jyCWPKiLTIoYM57cuq0vM9/Web-Portfolio?node-id=210-314&p=f&t=l8RIKZd9hx9AImhI-0&scaling=scale-down&content-scaling=fixed&page-id=204%3A7&starting-point-node-id=210%3A314&show-proto-sidebar=1"
               },
               {
                 linkname: "ReqTrack: Reqruitment Tracking System (Screenshots)",
