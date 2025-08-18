@@ -134,7 +134,7 @@ data() {
             note: "Personal UI/UX Works",
             links: [
               {
-                linkname: "JHunter: Job Hunt App",
+                linkname: "JHunter: Job Hunting App",
                 url: "https://www.figma.com/proto/jyCWPKiLTIoYM57cuq0vM9/Web-Portfolio?node-id=210-314&p=f&t=l8RIKZd9hx9AImhI-0&scaling=scale-down&content-scaling=fixed&page-id=204%3A7&starting-point-node-id=210%3A314&show-proto-sidebar=1"
               },
               {
