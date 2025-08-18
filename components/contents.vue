@@ -96,10 +96,10 @@ data() {
             link: "https://websitesamples.netlify.app/",
             note: "Basic Web Tools | Vue JS | Nuxt JS | SASS | Bootstrap Vue",
             links: [
-              {
-                linkname: "AI Health Pro",
-                url: "https://aihealthpros.com/"
-              },
+              // {
+              //   linkname: "AI Health Pro",
+              //   url: "https://aihealthpros.com/"
+              // },
               {
                 linkname: "Black One",
                 url: "https://blackone.netlify.app/"
