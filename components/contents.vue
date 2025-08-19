@@ -91,6 +91,14 @@ data() {
         icon: "folder",
         contents: [
           {
+            title: "Video Introduction", 
+            sub: "",
+            link: "https://drive.google.com/file/d/1H1jk_GCDjak4cp_0EXE1Y891_LzzGcBE/view?usp=sharing",
+            note: "A short video introduction about myself",
+            links: [],
+            cont: []
+          },
+          {
             title: "Live Website Designs", 
             sub: "",
             link: "https://websitesamples.netlify.app/",
