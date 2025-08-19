@@ -300,13 +300,13 @@ $text2: #c2d7e9;
   border-right: 7px solid $BG4;
 }
 .panel_title {
-  display: block;
   font-family: font_R;
   font-size: 20px;
   transition: 0.4s;
   border-left: 3px solid transparent;
   padding-left: 15px;
   margin-left: 10px;
+  margin-bottom: 20px;
   // width: fit-content;
 }
 .extra_color {
@@ -318,18 +318,27 @@ $text2: #c2d7e9;
   height: 15px;
   color: $BG4;
 }
+.panel_holder {
+  display: flex;
+  flex-wrap: wrap; /* allow wrapping to next row */
+  gap: 10px; /* spacing between panels */
+}
 .panel_content {
   padding-left: 30px;
   padding-right: 30px;
-  margin: 10px;
-  margin-top: 15px;
   padding: 20px;
-  width: 45%;
+  // margin: 10px;
+  // margin-top: 15px;
   background: $BG1;
   border-radius: 10px;
-  display: inline-block;
   vertical-align: top;
   height: fit-content;
+
+  width: auto !important;
+  height: auto;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  flex: 0 0 calc(50% - 10px);
 }
 .content_title {
   font-family: font_BL;
@@ -365,8 +374,10 @@ $text2: #c2d7e9;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  height: calc(100% - 80px);
 }
 .content_link_btn {
+  margin-top: auto;
   background-color: $BG4;
   border-radius: 100px;
   padding: 7px;

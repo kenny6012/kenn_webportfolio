@@ -12,32 +12,34 @@
 
       <!-- PANELS -->
       <div class="panel_container" v-for="(data, d) in panels" :key="'d'+d" :ref="data.id" :id="data.id">
-      <div class="panel_title" :id="'pnl_'+data.id">{{ data.title }}</div>
-        <div class="panel_content" v-for="(cont, c) in data.contents" :key="'c'+c">
-          <div class="content_title">{{ cont.title }}</div>
-          <div class="content_sub">{{ cont.sub }}</div>
-          <div class="content_note">{{ cont.note }}</div>
-          <br>
-          <div class="content_urls">
-            <div 
-            v-for="(urls, u) in cont.links" 
-            v-show="cont.links.length > 0" 
-            :key="'u'+u"
-            class="content_urlname content_link_btn" @click="go(urls.url)">
-              {{urls.linkname}} &ensp; <fa :icon="['fa', 'arrow-alt-circle-right']"/>
+        <div class="panel_title" :id="'pnl_'+data.id">{{ data.title }}</div>
+        <div class="panel_holder">
+          <div class="panel_content" v-for="(cont, c) in data.contents" :key="'c'+c">
+            <div class="content_title">{{ cont.title }}</div>
+            <div class="content_sub">{{ cont.sub }}</div>
+            <div class="content_note">{{ cont.note }}</div>
+            <br>
+            <div class="content_urls">
+              <div 
+              v-for="(urls, u) in cont.links" 
+              v-show="cont.links.length > 0" 
+              :key="'u'+u"
+              class="content_urlname content_link_btn" @click="go(urls.url)">
+                {{urls.linkname}} &ensp; <fa :icon="['fa', 'arrow-alt-circle-right']"/>
+              </div>
             </div>
-          </div>
-          <div class="content_desc" 
-            v-for="(li, l) in cont.cont" 
-            :key="'l'+l" 
-            v-show="cont.cont.length > 0"
-          > 
-            &bullet;&ensp;{{ li.li }}
-          </div>
-          <div class="content_link" v-show="cont.links.length < 1">
-            <button class="content_link_btn" v-show="cont.link != ''" @click="go(cont.link)">
-              Click here to view &ensp; <fa :icon="['fa', 'arrow-alt-circle-right']"/>
-            </button>
+            <div class="content_desc" 
+              v-for="(li, l) in cont.cont" 
+              :key="'l'+l" 
+              v-show="cont.cont.length > 0"
+            > 
+              &bullet;&ensp;{{ li.li }}
+            </div>
+            <div class="content_link" v-show="cont.links.length < 1">
+              <button class="content_link_btn" v-show="cont.link != ''" @click="go(cont.link)">
+                Click here to view &ensp; <fa :icon="['fa', 'arrow-alt-circle-right']"/>
+              </button>
+            </div>
           </div>
         </div>
       </div>
