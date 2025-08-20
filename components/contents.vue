@@ -363,7 +363,7 @@ data() {
           },
           {
             title: "RecTrack - Recruitment Tracking System", 
-            sub: "Primary UX Designer & Front-end Developer", 
+            sub: "UI/UX Designer | Front-end Developer", 
             note: "Vue, Nuxt, Bootstrap-vue, SASS",
             link: "",
             links: [],
@@ -377,7 +377,7 @@ data() {
           },
           {
             title: "RMRS - Raw Materials Receiving System", 
-            sub: "Primary UX Designer & Front-end Developer", 
+            sub: "UI/UX Designer | Front-end Developer", 
             note: "Nativescript-vue, Android Studio, SASS",
             link: "",
             links: [],
@@ -390,7 +390,7 @@ data() {
           },
           {
             title: "Biotech Farms Inc. - Company Website", 
-            sub: "UI / UX Designer", 
+            sub: "UI/UX Designer | Developer | Wordpress", 
             link: "",
             note: "Wordpress, Yoast SEO",
             links: [],
