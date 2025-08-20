@@ -66,10 +66,10 @@
             </div>
 
             <!-- KNOWLEDGE -->
-            <!-- <div class="side_panel">
-              <div class="display_B text_title"> Knowledgeable in: </div>
+            <div class="side_panel">
+              <div class="display_B text_title"> Tools Used: </div>
               <div class="display_B text_sub" v-for="(know, k) in knowledge" :key="'k'+k"> <fa :icon="['fa', 'check-circle']"/> &ensp; {{ know.skill }} </div>
-            </div> -->
+            </div>
 
           </div>
         </div>
@@ -125,7 +125,7 @@ data() {
       { skill: "Javascript"},
       { skill: "HTMl"},
       { skill: "CSS"},
-      { skill: "Sass"},
+      { skill: "SCSS"},
       { skill: "Axios"},
       { skill: "Socket.io"},
       { skill: "Nativescript-vue "},
@@ -141,13 +141,14 @@ data() {
       { skill: "Branding"},
       { skill: "Marketing Ads"},
     ],
-    // knowledge: [
-    //   { skill: "Github / Bitbucket" },
-    //   { skill: "JIRA / Trello / Confluence" },
-    //   { skill: "Axios" },
-    //   { skill: "Wordpress" },
-    //   { skill: "SEO" },
-    // ],
+    knowledge: [
+      { skill: "VS Code" },
+      { skill: "Slack / Discord / Rocketchat" },
+      { skill: "Github / Bitbucket" },
+      { skill: "JIRA / Trello / Confluence" },
+      { skill: "Axios / Socket IO" },
+      { skill: "Wordpress / SEO" },
+    ],
     final_height: "",
     final_scroll_height: "",
 

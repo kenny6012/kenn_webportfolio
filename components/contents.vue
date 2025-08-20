@@ -178,11 +178,60 @@ data() {
             title: "Digital Arts", 
             sub: "",
             link: "https://drive.google.com/drive/folders/1qJaPsZ4SwmvmyHTGCXG1PpwjramjqU5q?usp=sharing",
-            note: "Using Huion pentab and Adobe Photoshop",
+            note: "Using Huion pentab, iPad, or XPpen Display Tablet",
             links: [],
             cont: []
           },
           
+        ]
+      },
+      {
+        id: "skillsTools",
+        title: "Skills and Tools",
+        icon: "user-cog",
+        contents: [
+          {
+            title: "UI/UX Designer", 
+            sub: "", 
+            link: "",
+            note: "",
+            links: [],
+            cont: [
+              {li: "Figma / Adobe XD"},
+              {li: "User Research / UX Researc / Prototyping / Wireframing"},
+              {li: "Mobile-First Design / User-Centered Design / Responsive Design"},
+            ]
+          },
+          {
+            title: "Front-end (FE) Web Development", 
+            sub: "", 
+            link: "",
+            note: "",
+            links: [],
+            cont: [
+              {li: "Vue JS / Nuxt JS"},
+              {li: "Vuetify / Bootstrap / Material Design / Scss"},
+              {li: "JS, HMTL, CSS"},
+              {li: "JQuery / PHP"},
+              {li: "Axios / Socket IO"},
+              {li: "VS Code"},
+            ]
+          },
+          {
+            title: "Graphic Design/Art", 
+            sub: "", 
+            link: "",
+            note: "",
+            links: [],
+            cont: [
+              {li: "Adobe Photoshop / Adobe Illustrator"},
+              {li: "Figma / Canva"},
+              {li: "Clip Studio Paint / Procreate"},
+              {li: "Color Theory / Typography / Branding"},
+              {li: "Visual Hierarchy / Information Hierarchy"},
+              {li: "Product Mockups"},
+            ]
+          },
         ]
       },
       {
@@ -197,7 +246,7 @@ data() {
             note: "December 2022 - May 2023",
             links: [],
             cont: [
-              {li: " Project-based (4 months contract)."},
+              {li: "Project-based (4 months contract)."},
               {li: "User Research, Prototyping, and Wireframing."},
               {li: "Web and Mobile Designs"},
             ]
