@@ -148,6 +148,8 @@ data() {
     // ],
     final_height: "",
     final_scroll_height: "",
+
+    reloaded: false,
   }
 },
 methods: {
@@ -159,6 +161,18 @@ methods: {
   openMobile(mobile) {
     if (mobile) {
       window.location.href = `tel:${mobile}`;
+    }
+  },
+  checkWidth(main_layout_w) {
+    if (main_layout_w > 1300) {
+      this.final_width = 1344;
+    } else {
+      this.final_width = main_layout_w;
+
+      if (!this.reloaded) { // run only once
+        this.reloaded = true;
+        window.location.reload();
+      }
     }
   }
 },
@@ -176,12 +190,8 @@ mounted() {
   this.computedHeight = parseInt(sh) + 50; // idk why I had to put 50
 
   // FOR WIDTH
-  if(main_layout_w > 1300) {
-    this.final_width = 1344;
-  }
-  else {
-    this.final_width = main_layout_w;
-  }
+  this.checkWidth(main_layout_w);
+  
   if(main_layout < 733) {
     // alert("Redirecting to mobile version", main_layout);
     // console.log("Redirecting to mobile version", main_layout);
