@@ -240,7 +240,7 @@ data() {
         icon: "users",
         contents: [
           {
-            title: "UI/UX Designer & Front-end Developer", 
+            title: "UI/UX Designer | Front-end Developer", 
             sub: "Apaly Health Corporation", 
             link: "",
             note: "December 2024 - Aug 2025",
@@ -252,7 +252,7 @@ data() {
             ]
           },
           {
-            title: "UI/UX Designer & Front-end Developer", 
+            title: "UI/UX Designer | Front-end Developer", 
             sub: "Capella BPO", 
             link: "",
             note: "May 2023 - Dec 2023",
@@ -290,7 +290,7 @@ data() {
             ]
           },
           {
-            title: "UI/UX Designer & Graphic Designer", 
+            title: "UI/UX Designer | Fron-end Developer | and Graphic Designer", 
             sub: "Biotech Farms Inc.", 
             link: "",
             note: "January 2020 - October 2022",
@@ -302,7 +302,7 @@ data() {
             ]
           },
           {
-            title: "Graphic Designer & Web Designer", 
+            title: "Graphic Designer | Web Designer", 
             sub: "Starbright School and Office Depot Inc.", 
             link: "",
             note: "June 2019 - October 2019",
