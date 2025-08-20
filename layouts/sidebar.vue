@@ -6,7 +6,13 @@
       <div class="side_container" ref="side_cont">
         <!-- SIDE HEADER -->
         <div class="side_header">
-          <div class="side_picture"></div>
+          <div class="side_picture" @click="watchIntroVideo()">
+            <button class="side_picture_play">
+              <div class="side_picture_container">
+                <fa :icon="['fa', 'play']"/>
+              </div>
+            </button>
+          </div>
           <div class="side_profile">
             <div class="profile_name">{{ name }}</div>
             <div class="profile_title">{{ title }}</div>
@@ -156,6 +162,9 @@ data() {
   }
 },
 methods: {
+  watchIntroVideo() {
+    window.open("https://drive.google.com/file/d/1H1jk_GCDjak4cp_0EXE1Y891_LzzGcBE/view?usp=sharing");
+  },
   openEmail(email) {
     if (email) {
       window.location.href = `mailto:${email}`;

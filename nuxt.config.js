@@ -152,7 +152,7 @@ export default {
         "faProjectDiagram",
         "faArrowAltCircleDown",
         "faHome",
-        
+        "faPlay"
       ],
       brands: [
         "faGoogle",

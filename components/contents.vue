@@ -92,14 +92,14 @@ data() {
         title: "Portfolio",
         icon: "folder",
         contents: [
-          {
-            title: "Video Introduction", 
-            sub: "",
-            link: "https://drive.google.com/file/d/1H1jk_GCDjak4cp_0EXE1Y891_LzzGcBE/view?usp=sharing",
-            note: "A short video introduction about myself",
-            links: [],
-            cont: []
-          },
+          // {
+          //   title: "Video Introduction", 
+          //   sub: "",
+          //   link: "https://drive.google.com/file/d/1H1jk_GCDjak4cp_0EXE1Y891_LzzGcBE/view?usp=sharing",
+          //   note: "A short video introduction about myself",
+          //   links: [],
+          //   cont: []
+          // },
           {
             title: "Live Website Designs", 
             sub: "",
@@ -240,6 +240,31 @@ data() {
         icon: "users",
         contents: [
           {
+            title: "UI/UX Designer & Front-end Developer", 
+            sub: "Apaly Health Corporation", 
+            link: "",
+            note: "December 2024 - Aug 2025",
+            links: [],
+            cont: [
+              {li: "Vue JS Developer"},
+              {li: "UI/UX Design - User Research, Prototyping, and Wire-framing using Figma.."},
+              {li: "Working on multiple web products."},
+            ]
+          },
+          {
+            title: "UI/UX Designer & Front-end Developer", 
+            sub: "Capella BPO", 
+            link: "",
+            note: "May 2023 - Dec 2023",
+            links: [],
+            cont: [
+              {li: "Vue JS Developer"},
+              {li: "UI/UX Design - User Research, Prototyping, and Wire-framing using Figma.."},
+              {li: "Worked on their websites using Wordpress."},
+              {li: "Worked on their AI-powered project (AI Health Pro)"},
+            ]
+          },
+          {
             title: "UI/UX Designer", 
             sub: "Joblu Technologies Pte. Ltd", 
             link: "",
@@ -252,15 +277,28 @@ data() {
             ]
           },
           {
+            title: "Graphic Designer", 
+            sub: "Beanstalk! Growth Marketing", 
+            link: "",
+            note: "October 2022 - December 2022",
+            links: [],
+            cont: [
+              {li: "Part-time"},
+              {li: "Social Media postings per clients"},
+              {li: "Create Mood Boards per clients"},
+              {li: "Communicate with creative managers and clients"},
+            ]
+          },
+          {
             title: "UI/UX Designer & Graphic Designer", 
             sub: "Biotech Farms Inc.", 
             link: "",
             note: "January 2020 - October 2022",
             links: [],
             cont: [
-              {li: "UX Designer, front-end development and API integration."},
-              {li: "Worked with Web and Mobile apps."},
-              {li: "Freelance Graphic Designer under the same company."},
+              {li: "Generalist UX Designer, working with front-end development and API integration."},
+              {li: "Worked with Web Applications such as Applicant Tracking System (ATS) and Mobile Apps for tracking deliveries."},
+              {li: "Also worked as Freelance Graphic Designer under the same company after working full-time."},
             ]
           },
           {
@@ -271,7 +309,7 @@ data() {
             links: [],
             cont: 
             [
-              {li: "Senior Graphic Designer and Web Developer."},
+              {li: "Senior Graphic Designer and Web Developer (front-end)"},
               {li: "Worked with Points/Rewards System and Logistics System."},
               {li: "Social Media postings, ads, flyers, and brochures."},
             ]
