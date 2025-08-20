@@ -171,7 +171,7 @@ methods: {
 
       if (!this.reloaded) { // run only once
         this.reloaded = true;
-        window.location.reload();
+        // window.location.reload();
       }
     }
   }
