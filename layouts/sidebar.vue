@@ -170,9 +170,10 @@ methods: {
     } else {
       this.final_width = main_layout_w;
 
-      if (!this.reloaded) { // run only once
-        this.reloaded = true;
-        // window.location.reload();
+      // prevent infinite reload by storing a flag
+      if (!localStorage.getItem('reloaded_once')) {
+        localStorage.setItem('reloaded_once', 'true');
+        window.location.reload();
       }
     }
   }
@@ -191,6 +192,7 @@ mounted() {
   this.computedHeight = parseInt(sh) + 50; // idk why I had to put 50
 
   // FOR WIDTH
+  // const main_layout_w = document.querySelector('.main_layout').offsetWidth;
   this.checkWidth(main_layout_w);
   
   if(main_layout < 733) {
