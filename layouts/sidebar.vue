@@ -18,9 +18,15 @@
             <!-- CONTACTS -->
             <div class="side_panel">
               <div class="display_B text_title"> Contacts:</div>
-              <div class="display_B text_sub"> <fa :icon="['fa', 'envelope']"/> &ensp; {{ email }} </div>
-              <div class="display_B text_sub"> <fa :icon="['fa', 'phone-square']"/> &ensp; {{ mobile }} </div>
-              <div class="display_B text_sub"> <fa :icon="['fa', 'globe-asia']"/> &ensp; {{ address }} </div>
+              <div class="display_B text_sub" @click="openEmail(email)"> 
+                <fa :icon="['fa', 'envelope']"/> &ensp; {{ email }} 
+              </div>
+              <div class="display_B text_sub" @click="openMobile(mobile)"> 
+                <fa :icon="['fa', 'phone-square']"/> &ensp; {{ mobile }} 
+              </div>
+              <div class="display_B text_sub"> 
+                <fa :icon="['fa', 'globe-asia']"/> &ensp; {{ address }} 
+              </div>
             </div>
             <!-- UI/UX SKILLS -->
             <div class="side_panel">
@@ -70,7 +76,8 @@
       </div>
 
     </div>
-    <div :style="'height:'+computedHeight+'px;'" class="content_layout" >
+    <!-- <div :style="'height:'+computedHeight+'px;'" class="content_layout" > -->
+    <div class="content_layout" >
         <Nuxt />
     </div>
 
@@ -144,7 +151,16 @@ data() {
   }
 },
 methods: {
-  
+  openEmail(email) {
+    if (email) {
+      window.location.href = `mailto:${email}`;
+    }
+  },
+  openMobile(mobile) {
+    if (mobile) {
+      window.location.href = `tel:${mobile}`;
+    }
+  }
 },
 mounted() {
   // GET MAIN LAYOUT'S HEIGHT
@@ -168,7 +184,7 @@ mounted() {
   }
   if(main_layout < 733) {
     // alert("Redirecting to mobile version", main_layout);
-    console.log("Redirecting to mobile version", main_layout);
+    // console.log("Redirecting to mobile version", main_layout);
     needed_height = parseFloat(side_container_height) * 0.65; // 65 percent
   }
   else if(main_layout > 800) {

@@ -144,15 +144,15 @@ data() {
             note: "Personal UI/UX Works",
             links: [
               {
-                linkname: "JHunter: Job Hunting App",
+                linkname: "Job Hunting App",
                 url: "https://www.figma.com/proto/jyCWPKiLTIoYM57cuq0vM9/Web-Portfolio?node-id=210-314&p=f&t=l8RIKZd9hx9AImhI-0&scaling=scale-down&content-scaling=fixed&page-id=204%3A7&starting-point-node-id=210%3A314&show-proto-sidebar=1"
               },
               {
-                linkname: "ReqTrack: Reqruitment Tracking System (Screenshots)",
+                linkname: "Reqruitment Tracking System",
                 url: "https://drive.google.com/drive/folders/1l1Bi0zc10jri6l0zimWzVx9T1rwTE3a9?usp=sharing"
               },
               {
-                linkname: "Lou Geh Playlist: Personal Music Tacker",
+                linkname: "Personal Music Tacker",
                 url: "https://www.figma.com/file/J6dQNb43e1i4709Styf3Nj/BFI-PlayList?type=design&node-id=0-1&mode=design"
               },
               {
