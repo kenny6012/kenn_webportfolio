@@ -9,7 +9,7 @@
           <div class="side_picture"></div>
           <div class="side_profile">
             <div class="profile_name">{{ name }}</div>
-            <div class="profile_title">{{ title }}.</div>
+            <div class="profile_title">{{ title }}</div>
           </div>
         </div>
         <!-- SCROLLABLE SIDE -->
