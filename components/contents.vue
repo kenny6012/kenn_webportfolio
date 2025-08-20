@@ -1,7 +1,7 @@
 <template>
   <div class="main_container" id="main_cont">
     <!-- HEADER -->
-    <Header />
+    <!-- <Header /> -->
     
     <!-- NAVIGATIONS -->
     <div class="navigations">
