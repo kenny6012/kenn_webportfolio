@@ -99,8 +99,8 @@ $text2: #c2d7e9;
 }
 .side_layout {
   // border: 1px solid red;
-  max-width: 350px;
-  min-width: 350px;
+  width: 350px;
+  // min-width: 350px;
   height: 100vh;
   display: flex;
   align-items: center;
