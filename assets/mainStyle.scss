@@ -516,8 +516,7 @@ $text2: #c2d7e9;
     padding-right: 200px;
   }
   .side_layout { 
-    max-width: 100%; 
-    min-width: auto;
+    width: 100% !important;
     height: auto; 
     padding: 0px;  
   }
@@ -538,9 +537,8 @@ $text2: #c2d7e9;
   }
   .content_layout {
     height: fit-content !important;
-    width: 100%;
+    width: 100% !important;
     height: auto !important;
-    width: 100%;
     overflow: visible !important;
     padding: 25px;
     padding-right: 0px;
