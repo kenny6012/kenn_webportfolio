@@ -322,14 +322,42 @@ data() {
         icon: "project-diagram",
         contents: [
           {
+            title: "Member App", 
+            sub: "UI/UX Designer | Front-end Developer", 
+            note: "Figma, Vue, Nuxt, Vuetify, SCSS",
+            link: "",
+            links: [],
+            cont: [
+              {li: "Redesigned and rebuilt their existing member app scratch."},
+              {li: "Currently in prodcution."},
+              {li: "Collaborated with Back-end Developers and Project Manager."},
+              {li: "Created the design systems for their web apps"},
+              {li: "Desktop / Mobile Designs"},
+            ]
+          },
+          {
+            title: "DPC Portal", 
+            sub: "UI/UX Designer | Front-end Developer", 
+            note: "Figma, Vue, Nuxt, Vuetify, SCSS",
+            link: "",
+            links: [],
+            cont: [
+              {li: "Redesigned and rebuilt their existing DPC Portal from scratch."},
+              {li: "Currently in prodcution."},
+              {li: "Collaborated with Back-end Developers and Project Manager."},
+              {li: "Created the design systems for their web apps"},
+              {li: "Desktop / Mobile Designs"},
+            ]
+          },
+          {
             title: "Joblu - Find Jobs & Hire Talent", 
             sub: "Primary UX Designer", 
             note: "Figma",
             link: "",
             links: [],
             cont: [
-              {li: "Prototyping"},
-              {li: "Wireframimg"},
+              {li: "Prototyping, Wireframing"},
+              {li: "Collaborated with Developers and Project Managers"},
               {li: "Desktop / Mobile Designs"},
             ]
           },
@@ -340,7 +368,9 @@ data() {
             link: "",
             links: [],
             cont: [
-              {li: "Proposed a refactoring of old web system. Now in production."},
+              {li: "Proposed a refactoring of old web system."},
+              {li: "Currently in production."},
+              {li: "Collaborated with co-developers, QAs, and Project Managers"},
               {li: "Used Axios for API integration."},
               {li: "Desktop / Mobile version."},
             ]
@@ -353,6 +383,7 @@ data() {
             links: [],
             cont: [
               {li: "Created the first mobile app for the company's existing webapp."},
+              {li: "Collaborated with co-developers, QAs, and Project Managers"},
               {li: "Used nativescript-vue and android studio emmulator."},
               {li: "Used Axios for API integrations."},
             ]
