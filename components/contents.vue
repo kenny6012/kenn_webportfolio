@@ -423,19 +423,21 @@ data() {
       },
       {
         id: "others",
-        title: "Other Relevant Experiences",
+        title: "Other Relevant Work and Experiences",
         icon: "star",
         contents: [
           {
             title: "Visual Artistry", 
             sub: "Present", 
             link: "",
-            note: "Self-taught",
+            note: "Digital | Traditional",
             links: [],
             cont: [
-              {li: "Able to create colored and black n' white portraits."},
-              {li: "Character designs and sketches."},
-              {li: "Digital and Traditional ways of creating art pieces."}
+              {li: "Strictly NO AI"},
+              {li: "My works are mostly digital these past years."},
+              {li: "I've done comissioned black n' white or colored portraits."},
+              {li: "I do character designs and landscape arts."},
+              {li: "Clip Studio Paint | Procreate | Adobe Photoshop | Adobe Illustrator"}
             ]
           },
           {
