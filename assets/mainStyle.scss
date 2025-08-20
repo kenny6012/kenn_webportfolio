@@ -99,8 +99,8 @@ $text2: #c2d7e9;
 }
 .side_layout {
   // border: 1px solid red;
-  width: 350px;
-  // min-width: 350px;
+  max-width: 350px;
+  min-width: 350px;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -300,7 +300,7 @@ $text2: #c2d7e9;
   border-right: 7px solid $BG4;
 }
 .panel_title {
-  font-family: font_R;
+  font-family: font_B !important;
   font-size: 20px;
   transition: 0.4s;
   border-left: 3px solid transparent;
@@ -342,10 +342,10 @@ $text2: #c2d7e9;
 }
 .content_title {
   font-family: font_BL;
-  color: $text2;
+  color: $BG6;
   font-size: 14px;
   display: block;
-  margin-top: 7px;
+  // margin-top: 7px;
   transition: 0.4s;
 }
 .content_sub {
@@ -502,6 +502,12 @@ $text2: #c2d7e9;
   .side_bottons {
     display: none;
   }
+  .side_picture {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+  }
   .main_layout {
     background: #161b1f;
     // height: 100vh !important; 
@@ -517,7 +523,8 @@ $text2: #c2d7e9;
     padding-right: 200px;
   }
   .side_layout { 
-    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
     height: auto; 
     padding: 0px;  
   }
@@ -593,13 +600,13 @@ $text2: #c2d7e9;
     flex: 0 0 100%;
   }
   .panel_title {
-    font-family: font_R;
     font-size: 20px;
     transition: 0.4s;
     border-left: 3px solid transparent;
     padding-left: 0px !important;
     margin-left: 10px;
     margin-bottom: 20px;
+    margin-top: 10px;
     // width: fit-content;
   }
 }
