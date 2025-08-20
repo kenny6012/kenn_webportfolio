@@ -88,7 +88,9 @@ $text2: #c2d7e9;
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffff1c;
 }
-
+.pointer {
+  cursor: pointer !important;
+}
 .main_layout {
   margin: auto;
   background: #161b1f;

@@ -25,10 +25,10 @@
             <!-- CONTACTS -->
             <div class="side_panel">
               <div class="display_B text_title"> Contacts:</div>
-              <div class="display_B text_sub" @click="openEmail(email)"> 
+              <div class="display_B text_sub pointer" @click="openEmail(email)"> 
                 <fa :icon="['fa', 'envelope']"/> &ensp; {{ email }} 
               </div>
-              <div class="display_B text_sub" @click="openMobile(mobile)"> 
+              <div class="display_B text_sub pointer" @click="openMobile(mobile)"> 
                 <fa :icon="['fa', 'phone-square']"/> &ensp; {{ mobile }} 
               </div>
               <div class="display_B text_sub"> 
