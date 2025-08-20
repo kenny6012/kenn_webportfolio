@@ -322,7 +322,7 @@ data() {
         icon: "project-diagram",
         contents: [
           {
-            title: "Member App", 
+            title: "Apaly Health: Member App", 
             sub: "UI/UX Designer | Front-end Developer", 
             note: "Figma, Vue, Nuxt, Vuetify, SCSS",
             link: "",
@@ -336,7 +336,7 @@ data() {
             ]
           },
           {
-            title: "DPC Portal", 
+            title: "Apaly Heath: DPC Portal", 
             sub: "UI/UX Designer | Front-end Developer", 
             note: "Figma, Vue, Nuxt, Vuetify, SCSS",
             link: "",
