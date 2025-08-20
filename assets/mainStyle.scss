@@ -512,6 +512,8 @@ $text2: #c2d7e9;
     overflow-x: hidden;
     width: 100% !important;
     padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
   }
   .side_layout { 
     max-width: 100%; 
@@ -600,5 +602,23 @@ $text2: #c2d7e9;
     margin-left: 10px;
     margin-bottom: 20px;
     // width: fit-content;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main_layout {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_layout {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main_layout {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

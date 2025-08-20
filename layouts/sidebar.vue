@@ -1,5 +1,6 @@
 <template>
-  <div class="main_layout" ref="main_layout" :style="'width: '+final_width+'px;'">
+  <!-- <div class="main_layout" ref="main_layout" :style="'width: '+final_width+'px;'"> -->
+  <div class="main_layout" ref="main_layout">
     <div class="side_layout">
 
       <div class="side_container" ref="side_cont">
