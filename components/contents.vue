@@ -137,7 +137,7 @@ data() {
               },
               {
                 linkname: "Style Guide: All Natural",
-                url: "https://www.figma.com/file/TjZ4CI6vrcnob0Jy5L2f74/BFI-Style-Guide?type=design&node-id=1-20&mode=design"
+                url: "https://drive.google.com/file/d/1Mkjj_44KCUiE5CXucihpM0ogOyQPTV3c/view?usp=sharing"
               },
               {
                 linkname: "Style Guide: Health Care",
