@@ -150,7 +150,7 @@ data() {
             title: "Live Prototypes", 
             sub: "",
             link: "",
-            note: "Basic Web Tools | Vue JS | Nuxt JS | SASS | Bootstrap Vue",
+            note: "HTML | CSS | Javascript",
             links: [
               // {
               //   linkname: "AI Health Pro",
@@ -220,17 +220,16 @@ data() {
             ]
           },
           {
-            title: "Front-end (FE) Web Development", 
+            title: "Front-end Web Development", 
             sub: "", 
             link: "",
             note: "",
             links: [],
             cont: [
               {li: "Vue JS / Nuxt JS"},
-              {li: "Vuetify / Bootstrap / Material Design / Scss"},
+              {li: "Vuetify / Bootstrap / Material Design / Scss / Tailwind"},
               {li: "JS, HMTL, CSS"},
-              {li: "JQuery / PHP"},
-              {li: "Axios / Socket IO"},
+              {li: "Axios / Socket IO / Pinia / Vuex"},
               {li: "VS Code"},
             ]
           },
