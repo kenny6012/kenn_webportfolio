@@ -101,6 +101,19 @@ data() {
           //   cont: []
           // },
           {
+            title: "UX Case Studies", 
+            sub: "",
+            link: "",
+            note: "Case Studies focusing on solving real-world problems",
+            links: [
+              {
+                linkname: "Case Study No. 1: Stride!",
+                url: "https://drive.google.com/file/d/1FEf851_ruDTp6SiXxSeJzz4QIVzmWrzc/view?usp=sharing"
+              },
+            ],
+            cont: []
+          },
+          {
             title: "Live Website Designs", 
             sub: "",
             link: "https://websitesamples.netlify.app/",
@@ -143,10 +156,10 @@ data() {
             link: "https://github.com/kenny6012",
             note: "Personal UI/UX Works",
             links: [
-              {
-                linkname: "Job Hunting App",
-                url: "https://www.figma.com/proto/jyCWPKiLTIoYM57cuq0vM9/Web-Portfolio?node-id=210-314&p=f&t=l8RIKZd9hx9AImhI-0&scaling=scale-down&content-scaling=fixed&page-id=204%3A7&starting-point-node-id=210%3A314&show-proto-sidebar=1"
-              },
+              // {
+              //   linkname: "Job Hunting App",
+              //   url: "https://www.figma.com/proto/jyCWPKiLTIoYM57cuq0vM9/Web-Portfolio?node-id=210-314&p=f&t=l8RIKZd9hx9AImhI-0&scaling=scale-down&content-scaling=fixed&page-id=204%3A7&starting-point-node-id=210%3A314&show-proto-sidebar=1"
+              // },
               {
                 linkname: "Reqruitment Tracking System",
                 url: "https://drive.google.com/drive/folders/1l1Bi0zc10jri6l0zimWzVx9T1rwTE3a9?usp=sharing"
