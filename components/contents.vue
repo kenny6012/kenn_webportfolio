@@ -114,6 +114,39 @@ data() {
             cont: []
           },
           {
+            title: "Figma Designs", 
+            sub: "",
+            link: "https://github.com/kenny6012",
+            note: "Personal UI/UX Works",
+            links: [
+              // {
+              //   linkname: "Job Hunting App",
+              //   url: "https://www.figma.com/proto/jyCWPKiLTIoYM57cuq0vM9/Web-Portfolio?node-id=210-314&p=f&t=l8RIKZd9hx9AImhI-0&scaling=scale-down&content-scaling=fixed&page-id=204%3A7&starting-point-node-id=210%3A314&show-proto-sidebar=1"
+              // },
+              {
+                linkname: "Stride! MVP Screens",
+                url: "https://drive.google.com/file/d/1GkGi45gOnd_iXSzzzc2R9kJbAYLlYgCW/view?usp=sharing"
+              },
+              {
+                linkname: "Reqruitment Tracking System",
+                url: "https://drive.google.com/drive/folders/1l1Bi0zc10jri6l0zimWzVx9T1rwTE3a9?usp=sharing"
+              },
+              {
+                linkname: "Personal Music Tacker",
+                url: "https://www.figma.com/file/J6dQNb43e1i4709Styf3Nj/BFI-PlayList?type=design&node-id=0-1&mode=design"
+              },
+              {
+                linkname: "Sample: Style Guide",
+                url: "https://www.figma.com/file/TjZ4CI6vrcnob0Jy5L2f74/BFI-Style-Guide?type=design&node-id=1-20&mode=design"
+              },
+              {
+                linkname: "Sample: Style Guide 2",
+                url: "https://www.figma.com/design/C3el9QCYbWAvCWwae0idkp/Apaly-Health?node-id=0-1&p=f&t=Ypj0rZ0xj6K27x8J-0"
+              },
+            ],
+            cont: []
+          },
+                    {
             title: "Live Website Designs", 
             sub: "",
             link: "https://websitesamples.netlify.app/",
@@ -146,35 +179,6 @@ data() {
               {
                 linkname: "Landing Three",
                 url: "https://landingthree.netlify.app/"
-              },
-            ],
-            cont: []
-          },
-          {
-            title: "Figma Designs", 
-            sub: "",
-            link: "https://github.com/kenny6012",
-            note: "Personal UI/UX Works",
-            links: [
-              // {
-              //   linkname: "Job Hunting App",
-              //   url: "https://www.figma.com/proto/jyCWPKiLTIoYM57cuq0vM9/Web-Portfolio?node-id=210-314&p=f&t=l8RIKZd9hx9AImhI-0&scaling=scale-down&content-scaling=fixed&page-id=204%3A7&starting-point-node-id=210%3A314&show-proto-sidebar=1"
-              // },
-              {
-                linkname: "Reqruitment Tracking System",
-                url: "https://drive.google.com/drive/folders/1l1Bi0zc10jri6l0zimWzVx9T1rwTE3a9?usp=sharing"
-              },
-              {
-                linkname: "Personal Music Tacker",
-                url: "https://www.figma.com/file/J6dQNb43e1i4709Styf3Nj/BFI-PlayList?type=design&node-id=0-1&mode=design"
-              },
-              {
-                linkname: "Sample: Style Guide",
-                url: "https://www.figma.com/file/TjZ4CI6vrcnob0Jy5L2f74/BFI-Style-Guide?type=design&node-id=1-20&mode=design"
-              },
-              {
-                linkname: "Sample: Style Guide 2",
-                url: "https://www.figma.com/design/C3el9QCYbWAvCWwae0idkp/Apaly-Health?node-id=0-1&p=f&t=Ypj0rZ0xj6K27x8J-0"
               },
             ],
             cont: []
