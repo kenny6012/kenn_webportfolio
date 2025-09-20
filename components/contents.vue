@@ -114,10 +114,10 @@ data() {
             cont: []
           },
           {
-            title: "Figma Designs", 
+            title: "Figma Works", 
             sub: "",
-            link: "https://github.com/kenny6012",
-            note: "Personal UI/UX Works",
+            link: "",
+            note: "Converted to PDF Files to avoid being copied directly to figma",
             links: [
               // {
               //   linkname: "Job Hunting App",
