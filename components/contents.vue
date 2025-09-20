@@ -147,7 +147,7 @@ data() {
             cont: []
           },
                     {
-            title: "Live Website Designs", 
+            title: "Live Prototypes", 
             sub: "",
             link: "https://websitesamples.netlify.app/",
             note: "Basic Web Tools | Vue JS | Nuxt JS | SASS | Bootstrap Vue",
