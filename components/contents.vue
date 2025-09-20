@@ -136,12 +136,12 @@ data() {
                 url: "https://www.figma.com/file/J6dQNb43e1i4709Styf3Nj/BFI-PlayList?type=design&node-id=0-1&mode=design"
               },
               {
-                linkname: "Sample: Style Guide",
+                linkname: "Style Guide: All Natural",
                 url: "https://www.figma.com/file/TjZ4CI6vrcnob0Jy5L2f74/BFI-Style-Guide?type=design&node-id=1-20&mode=design"
               },
               {
-                linkname: "Sample: Style Guide 2",
-                url: "https://www.figma.com/design/C3el9QCYbWAvCWwae0idkp/Apaly-Health?node-id=0-1&p=f&t=Ypj0rZ0xj6K27x8J-0"
+                linkname: "Style Guide: Health Care",
+                url: "https://drive.google.com/file/d/1d1dnz9Mwy7SZmk1PcPuc7BMDXAhbvdJu/view?usp=sharing"
               },
             ],
             cont: []
