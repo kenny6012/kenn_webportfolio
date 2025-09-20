@@ -87,7 +87,7 @@ components: {
 data() {
   return {
     panels: [
-      {
+      { // PORTFOLIO
         id: "portf",
         title: "Portfolio",
         icon: "folder",
@@ -146,10 +146,10 @@ data() {
             ],
             cont: []
           },
-                    {
+          {
             title: "Live Prototypes", 
             sub: "",
-            link: "https://websitesamples.netlify.app/",
+            link: "",
             note: "Basic Web Tools | Vue JS | Nuxt JS | SASS | Bootstrap Vue",
             links: [
               // {
@@ -177,7 +177,7 @@ data() {
                 url: "https://magazinethree.netlify.app/"
               },
               {
-                linkname: "Landing Three",
+                linkname: "Landing Page",
                 url: "https://landingthree.netlify.app/"
               },
             ],
@@ -187,7 +187,7 @@ data() {
             title: "Graphic Designs", 
             sub: "",
             link: "https://drive.google.com/drive/folders/1jFDv-0ltW9uy9nVQOwo4icLCWnwmbnCw?usp=sharing",
-            note: "Graphic designs from previous works",
+            note: "Adobe Photoshop | Adobe Illustrator | Canva",
             links: [],
             cont: []
           },
@@ -195,14 +195,14 @@ data() {
             title: "Digital Arts", 
             sub: "",
             link: "https://drive.google.com/drive/folders/1qJaPsZ4SwmvmyHTGCXG1PpwjramjqU5q?usp=sharing",
-            note: "Using Huion pentab, iPad, or XPpen Display Tablet",
+            note: "Procreate | Clip Studio Paint | Adobe Photoshop | Adobe Illustrator",
             links: [],
             cont: []
           },
           
         ]
       },
-      {
+      { // SKILLS AND TOOLS
         id: "skillsTools",
         title: "Skills and Tools",
         icon: "user-cog",
