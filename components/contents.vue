@@ -133,7 +133,7 @@ data() {
               // },
               {
                 linkname: "Stride! MVP Screens",
-                url: "https://drive.google.com/file/d/1GkGi45gOnd_iXSzzzc2R9kJbAYLlYgCW/view?usp=sharing"
+                url: "https://www.figma.com/design/Mx7AqE2R8DLaHpUNXzeVWC/Stride-?node-id=0-1&p=f&t=oKqngcn7TaVvRFGM-0"
               },
               {
                 linkname: "Style Guide: All Natural",
