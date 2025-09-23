@@ -227,7 +227,7 @@ computed: {
 
 <style lang="scss">
 .side_picture{
-  background-image: url("../assets/kenn_brian_dp.png");
+  background-image: url("../assets/me_2025.png");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center;
