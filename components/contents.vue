@@ -136,6 +136,10 @@ data() {
                 url: "https://www.figma.com/design/Mx7AqE2R8DLaHpUNXzeVWC/Stride-?node-id=0-1&p=f&t=oKqngcn7TaVvRFGM-0"
               },
               {
+                linkname: "Art Gallery",
+                url: "https://www.figma.com/design/b1WsySxiqCeDl0tAqT9CJ3/Art-Gallery?node-id=0-1&p=f&t=b24MpGHVziMABH8I-0"
+              },
+              {
                 linkname: "Style Guide: All Natural",
                 url: "https://drive.google.com/file/d/1Mkjj_44KCUiE5CXucihpM0ogOyQPTV3c/view?usp=sharing"
               },
