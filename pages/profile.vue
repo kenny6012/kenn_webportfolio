@@ -249,7 +249,7 @@ mounted() {
 
 <style lang="scss">
 .p_banner_picture{
-  background-image: url("../assets/me_sitting.png");
+  background-image: url("../assets/me_2025.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
