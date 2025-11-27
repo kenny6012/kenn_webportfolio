@@ -198,7 +198,7 @@ data() {
           {
             title: "Digital Arts", 
             sub: "",
-            link: "https://drive.google.com/drive/folders/1qJaPsZ4SwmvmyHTGCXG1PpwjramjqU5q?usp=sharing",
+            link: "https://www.artstation.com/blupik",
             note: "Procreate | Clip Studio Paint | Adobe Photoshop | Adobe Illustrator",
             links: [],
             cont: []
