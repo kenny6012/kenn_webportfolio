@@ -188,6 +188,14 @@ data() {
             cont: []
           },
           {
+            title: "Github Profile/Repositories", 
+            sub: "",
+            link: "https://github.com/kenny6012",
+            note: "Adobe Photoshop | Adobe Illustrator | Canva",
+            links: [],
+            cont: []
+          },
+          {
             title: "Graphic Designs", 
             sub: "",
             link: "https://drive.google.com/drive/folders/1jFDv-0ltW9uy9nVQOwo4icLCWnwmbnCw?usp=sharing",
