@@ -6,12 +6,13 @@
       <div class="side_container" ref="side_cont">
         <!-- SIDE HEADER -->
         <div class="side_header">
-          <div class="side_picture" @click="watchIntroVideo()">
-            <button class="side_picture_play">
+          <div class="side_picture">
+          <!-- <div class="side_picture" @click="watchIntroVideo()"> -->
+            <!-- <button class="side_picture_play">
               <div class="side_picture_container">
                 <fa :icon="['fa', 'play']"/>
               </div>
-            </button>
+            </button> -->
           </div>
           <div class="side_profile">
             <div class="profile_name">{{ name }}</div>

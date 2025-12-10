@@ -136,11 +136,11 @@ $text2: #c2d7e9;
   border-radius: 100px;
   border: 4px solid $BG8;
   transition: 0.3s;
-  cursor: pointer;
-  &:hover {
-    transition: 0.3s;
-    border: 4px solid $BG6;
-  }
+  // cursor: pointer;
+  // &:hover {
+  //   transition: 0.3s;
+  //   border: 4px solid $BG6;
+  // }
 }
 .side_picture_play {
   position: relative;
